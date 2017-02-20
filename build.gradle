@@ -1,9 +1,9 @@
 apply plugin: 'java'
+apply plugin: 'org.jtwig.release'
 apply from: 'gradle/jtwig-plugins/version-release.gradle'
 apply from: 'gradle/jtwig-plugins/coverage-support.gradle'
 apply from: 'gradle/jtwig-plugins/ide-support.gradle'
 apply from: 'gradle/jtwig-plugins/bintray.gradle'
-apply from: 'org.jtwig.release'
 
 sourceCompatibility = 1.7
 targetCompatibility = 1.7
